@@ -18,3 +18,6 @@ deploy:
 
 peek:
 	kubectl exec -it peekaboo /bin/bash
+
+destroy:
+	kubectl delete pod peekaboo

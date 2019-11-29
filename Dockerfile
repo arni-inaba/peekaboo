@@ -15,4 +15,4 @@ RUN cd /tmp \
 
 RUN pip install requests ipython
 
-CMD /bin/sh -c "while true; do echo $(date); sleep 60;done"
+CMD /bin/sh -c "while true; do echo $(date); sleep 5;done"
