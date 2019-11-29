@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
     - name: peekaboo
-      image: arniinaba/peekaboo:0.0.3
+      image: arniinaba/peekaboo:{{VERSION}}
       command: ["/bin/sh"]
       args: ["-c", "while true; do echo $(date); sleep 10;done"]
