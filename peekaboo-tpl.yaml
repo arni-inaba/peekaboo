@@ -7,4 +7,4 @@ spec:
     - name: peekaboo
       image: arniinaba/peekaboo:{{VERSION}}
       command: ["/bin/sh"]
-      args: ["-c", "while true; do echo $(date); sleep 10;done"]
+      args: ["-c", "while true; do echo $(date); sleep 5;done"]
